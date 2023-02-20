@@ -1,0 +1,15 @@
+.navBar {
+  display: flex;
+  flex-direction: row;
+  padding: 40px 113px;
+  gap: 17px;
+  justify-content: space-between;
+  align-items: center;
+}
+.brandMenu {
+  display: flex;
+  flex-direction: row;
+}
+.navBar .menuMedium {
+  width: 177px;
+}

@@ -1,0 +1,33 @@
+.transformamos {
+  display: flex;
+  flex-direction: column;
+  gap: 45px;
+  padding: 136px 144px 200px 144px;
+  align-items: center;
+}
+.overline {
+  background: linear-gradient(
+    90.67deg,
+    #511ea5 -13.21%,
+    #9b58ff 46.83%,
+    #41f6ec 119.29%
+  );
+  opacity: 0.8;
+  border-radius: 4px;
+  width: 176px;
+  height: 7.71px;
+}
+.textosNumero {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  width: 275px;
+}
+.transformamosTextos {
+  gap: 160px;
+  justify-content: space-between;
+  align-items: center;
+}
+.transformamosTextos .cuerpoBlanco {
+  width: 275px;
+}

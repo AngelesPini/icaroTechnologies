@@ -1,0 +1,32 @@
+.capacita {
+  display: flex;
+  flex-direction: column;
+  gap: 59px;
+  padding-top: 156px;
+  padding-bottom: 80px;
+}
+.capacitaTitulo {
+  text-align: center;
+}
+.capacitaMain {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  padding: 0 144px;
+  justify-content: space-between;
+}
+.mainLista ul li {
+  list-style-image: url(../../../assetes/iconos/listIcon.png);
+}
+.mainLista ul {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  margin-left: 30px;
+}
+.mainLista {
+  display: flex;
+  flex-direction: column;
+  gap: 27px;
+  width: 530px;
+}

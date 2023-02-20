@@ -1,0 +1,21 @@
+input {
+  width: 464px;
+  height: 58px;
+
+  background: #ffffff;
+  border-radius: 10px;
+  font-weight: 500;
+  font-size: 25px;
+  line-height: 30px;
+
+  color: #000000;
+  padding: 24px 22px;
+}
+.inputError {
+  background: #dddae5;
+  border: 2px solid #ee0b5c;
+}
+.inputCompleto {
+  background: #dddae5;
+  border: none;
+}

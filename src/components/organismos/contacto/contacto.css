@@ -1,0 +1,11 @@
+.contacto {
+  display: flex;
+  gap: 125px;
+  padding: 114px 144px;
+}
+.contacto .titulo {
+  width: 80%;
+}
+.contactoTexto .subtituloMedium {
+  margin-top: 25px;
+}

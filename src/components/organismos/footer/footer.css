@@ -1,0 +1,33 @@
+.footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 155px;
+  padding: 44px 206px;
+  background-color: #24165b;
+}
+.footerContacto ul li {
+  display: flex;
+  list-style-type: none;
+  align-items: center;
+  gap: 10px;
+}
+.footerContacto {
+  width: 280px;
+}
+.footer ul {
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+}
+.footerDireccion {
+  display: flex;
+  width: 280px;
+  align-items: center;
+  gap: 10px;
+}
+.lineFooter {
+  width: 100%;
+  height: 5px;
+  background-color: #753bd1;
+}

@@ -1,0 +1,23 @@
+.porqueElegirnos {
+  padding: 0 145px;
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+.porqueElegirnos .overline {
+  background: linear-gradient(
+    90.67deg,
+    #511ea5 -13.21%,
+    #9b58ff 46.83%,
+    #41f6ec 119.29%
+  );
+  opacity: 0.8;
+  border-radius: 4px;
+  width: 176px;
+  height: 7.71px;
+}
+.tituloPorque {
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+}

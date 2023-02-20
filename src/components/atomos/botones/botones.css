@@ -1,0 +1,65 @@
+button {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 24px;
+  text-align: center;
+  padding: 8px 16px;
+}
+
+.btnPrincipal {
+  background: #14044d;
+  border: 2px solid #14044d;
+  box-shadow: 0px 4px 4px rgba(20, 4, 77, 0.2);
+  border-radius: 20px;
+  color: #fff;
+}
+.btnPrincipal:hover {
+  background: linear-gradient(
+      0deg,
+      rgba(101, 52, 186, 0.6),
+      rgba(101, 52, 186, 0.6)
+    ),
+    #14044d;
+  border: solid 2px rgba(101, 52, 186, 0.6);
+}
+.btnPrincipal:active {
+  background: #44218f;
+  box-shadow: 0px 4px 4px rgba(20, 4, 77, 0.2);
+  border-radius: 20px;
+  color: #14044d;
+}
+.btnPrincipal:disabled {
+  background: linear-gradient(0deg, rgba(20, 4, 77, 0.6), rgba(20, 4, 77, 0.6)),
+    #ffffff;
+  box-shadow: 0px 4px 4px rgba(20, 4, 77, 0.2);
+  border-radius: 20px;
+}
+/* secundario */
+
+.btnSecundario {
+  border: 2px solid #14044d;
+  color: #14044d;
+  filter: drop-shadow(0px 4px 4px rgba(20, 4, 77, 0.2));
+  border-radius: 20px;
+}
+.btnSecundario:hover {
+  background: rgba(68, 33, 143, 0.1);
+  border: 2px solid #14044d;
+  box-shadow: 0px 4px 4px rgba(20, 4, 77, 0.2);
+  border-radius: 20px;
+}
+.btnSecundario:active {
+  background: rgba(68, 33, 143, 0.1);
+  border: 2px solid #44218f;
+  color: #44218f;
+  box-shadow: 0px 4px 4px rgba(20, 4, 77, 0.2);
+  border-radius: 20px;
+}
+.btnSecundario:disabled {
+  border: 2px solid rgba(20, 4, 77, 0.5);
+  color: rgba(20, 4, 77, 0.5);
+  filter: drop-shadow(0px 4px 4px rgba(20, 4, 77, 0.2));
+  border-radius: 20px;
+}

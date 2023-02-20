@@ -1,0 +1,12 @@
+.softwareEscalar {
+  display: flex;
+  padding: 136px 144px 200px 144px;
+  justify-content: space-between;
+}
+.softwareVideo {
+  width: 471px;
+  height: 416px;
+}
+.softwareTextos {
+  width: 565px;
+}

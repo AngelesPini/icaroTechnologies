@@ -1,0 +1,29 @@
+.titulo {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 46px;
+  line-height: 56px;
+}
+.tituloOscuro {
+  color: #14044d;
+}
+.tituloClaro {
+  color: #48cbd9;
+}
+.tituloLila {
+  color: #a848da;
+}
+.tituloBlanco {
+  color: #fff;
+}
+.tituloNumeros {
+  font-weight: 900;
+  font-size: 64px;
+  line-height: 78px;
+
+  color: #ffffff;
+}
+.transformamosTextos {
+  display: flex;
+}

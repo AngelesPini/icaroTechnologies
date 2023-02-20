@@ -1,0 +1,39 @@
+.cuerpoBold {
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 20px;
+  letter-spacing: 0.0025em;
+}
+.cuerpoMedium {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  letter-spacing: 0.0025em;
+}
+.mensajeError {
+  font-weight: 600;
+  font-size: 25px;
+  line-height: 30px;
+
+  color: #ee0b5c;
+}
+.cuerpoBlanco {
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 22px;
+
+  color: #ffffff;
+}
+.cuerpoBlancoBold {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 22px;
+
+  color: #ffffff;
+}
+.cuerpoFooter {
+  font-weight: 400;
+  font-size: 16px;
+
+  color: #e8e3f3;
+}
