@@ -25,18 +25,22 @@ import Transformamos from './components/organismos/trasnformamos/transformamos';
 import Contacto from './components/organismos/contacto/contacto';
 import Capacita from './components/organismos/capacita/capacita';
 import Footer from './components/organismos/footer/footer';
+import { AppRouter } from './router/AppRouter';
 function App() {
   return (
-    <div className="App">
-      <NavBar/>
-    <Contacto/>
-     {/*   <Capacita/>
-     <Header/>
-      <PorqueElegirnos/>
-      <SoftwareEscalar/>
-    <Transformamos/> */}
-    <Footer/>
-    </div>
+
+
+    <AppRouter/>
+    // <div className="App">
+    //   <NavBar/>
+    //  <Header/>
+    // <PorqueElegirnos/>
+    // <Transformamos/>
+    // <SoftwareEscalar/>
+    // <Footer/>
+    // <Capacita/>
+    // <Contacto/>
+    // </div>
   );
 }
 
