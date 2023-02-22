@@ -11,13 +11,7 @@ const NavBar = () => {
             <img src={Brand} alt="logo de icaro technologies" />
             </div>
             <div className="brandMenu">
-<<<<<<< HEAD
-                <Menu value='Home' style='menuMedium'/>
-                <Menu value='Servicios' style='menuMedium'/>
-                <Menu value='Contacto' style='menuMedium'/>
-                <SelectIdiomas/>
-=======
-                <Link to="/*">
+                <Link to='/'>
                     <Menu value='Home' style='menuMedium'/>
                 </Link>
                 <Link to='/servicio'>
@@ -26,11 +20,7 @@ const NavBar = () => {
                 <Link to='/contacto'>
                     <Menu value='Contacto' style='menuMedium'/>
                 </Link>
-                <select name="" id="">
-                    <option value="">ES - MX</option>
-                    <option value="">EN - US</option>
-                </select>
->>>>>>> 5ced8b7bdbb03ab9f72267107fc24beb8d6275a6
+                <SelectIdiomas/>
             </div>
 
         </div>

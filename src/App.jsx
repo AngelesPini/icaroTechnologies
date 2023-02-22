@@ -27,30 +27,12 @@ import Transformamos from './components/organismos/trasnformamos/transformamos';
 import Contacto from './components/organismos/contacto/contacto';
 import Capacita from './components/organismos/capacita/capacita';
 import Footer from './components/organismos/footer/footer';
-<<<<<<< HEAD
 import NavBarMobile from './components/organismos/navBarMobile/navBarMobile';
-=======
 import { AppRouter } from './router/AppRouter';
->>>>>>> 5ced8b7bdbb03ab9f72267107fc24beb8d6275a6
 function App() {
 
 
   return (
-<<<<<<< HEAD
-    <div className="App">
-
-      <NavBarMobile/>
-        <NavBar/>
- {/* <Contacto/>
-       <Capacita/> */}
-     <Header/>
-      <PorqueElegirnos/>
-      <SoftwareEscalar/>
-    <Transformamos/> 
-    <Footer/>
-
-    </div>
-=======
 
 
     <AppRouter/>
@@ -64,7 +46,6 @@ function App() {
     // <Capacita/>
     // <Contacto/>
     // </div>
->>>>>>> 5ced8b7bdbb03ab9f72267107fc24beb8d6275a6
   );
 }
 
