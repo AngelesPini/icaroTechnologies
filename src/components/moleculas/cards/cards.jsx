@@ -4,7 +4,7 @@ import Iconos from '../../atomos/iconos/iconos';
 import Cuerpo from '../../atomos/textos/cuerpo';
 const Cards = ({imagen, valor, valueTitle, valueCuerpo, styleTitle,styleCuerpo}) => {
     return (
-        <div className='card'>  
+        <div className='cardCarrusel '>  
         <Iconos imagen={imagen} valor={valor}/>
         <Cuerpo value={valueTitle} style={styleTitle}/>
         <Cuerpo value={valueCuerpo} style={styleCuerpo}/>

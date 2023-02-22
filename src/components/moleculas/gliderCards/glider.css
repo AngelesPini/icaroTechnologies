@@ -1,6 +1,7 @@
 .glider-track .glider-slide {
   width: 310px !important;
 }
+
 /* .glider .draggable .drag {
   width: 228px;
 }
@@ -14,3 +15,8 @@
   justify-content: space-evenly;
   width: 150%;
 } */
+@media screen and (max-width: 768px) {
+  .glider-track {
+    gap: 15px !important;
+  }
+}

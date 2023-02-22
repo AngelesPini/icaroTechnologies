@@ -2,6 +2,8 @@
 import './App.css';
 import { Route } from 'react-router-dom';
 
+
+
 // atomos
 import Botones from './components/atomos/botones/botones';
 import Titulos from './components/atomos/textos/titulos';
@@ -25,17 +27,23 @@ import Transformamos from './components/organismos/trasnformamos/transformamos';
 import Contacto from './components/organismos/contacto/contacto';
 import Capacita from './components/organismos/capacita/capacita';
 import Footer from './components/organismos/footer/footer';
+import NavBarMobile from './components/organismos/navBarMobile/navBarMobile';
 function App() {
+
+
   return (
     <div className="App">
-      <NavBar/>
-    <Contacto/>
-     {/*   <Capacita/>
+
+      <NavBarMobile/>
+        <NavBar/>
+ {/* <Contacto/>
+       <Capacita/> */}
      <Header/>
       <PorqueElegirnos/>
       <SoftwareEscalar/>
-    <Transformamos/> */}
+    <Transformamos/> 
     <Footer/>
+
     </div>
   );
 }

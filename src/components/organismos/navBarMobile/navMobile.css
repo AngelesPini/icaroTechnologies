@@ -1,0 +1,11 @@
+.navbar-nav {
+  align-items: center;
+  padding: 20px;
+  height: 100vh;
+  justify-content: space-evenly;
+}
+.navbar {
+  background-image: url(../../../assetes/bg-navbar.png);
+  background-size: cover;
+  height: 100%;
+}

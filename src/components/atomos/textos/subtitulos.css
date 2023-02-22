@@ -21,3 +21,18 @@
 
   color: #000;
 }
+@media screen and (max-width: 768px) {
+  .subtituloBold {
+    font-weight: 700;
+    font-size: 20px;
+  }
+  .subtituloMedium {
+    font-weight: 500;
+    width: 90%;
+    font-size: 18px;
+  }
+  .subtituloCapacita {
+    font-weight: 700;
+    font-size: 20px;
+  }
+}

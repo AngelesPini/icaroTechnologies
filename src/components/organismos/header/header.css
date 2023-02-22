@@ -13,3 +13,22 @@
 .headerImg img {
   width: 600px;
 }
+@media screen and (max-width: 768px) {
+  .header {
+    flex-direction: column;
+    padding: 40px 30px;
+    gap: 30px;
+  }
+  .header img {
+    width: 100%;
+  }
+  .headerTitle {
+    gap: 0;
+  }
+  .headerTitle .subtituloMedium {
+    margin-top: 24px;
+  }
+  .headerTitle .btnPrincipal {
+    margin-top: 24px;
+  }
+}

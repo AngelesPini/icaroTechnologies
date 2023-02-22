@@ -37,3 +37,25 @@
 
   color: #e8e3f3;
 }
+@media screen and (max-width: 768px) {
+  .cuerpoBold {
+    font-weight: 600;
+    font-size: 16px;
+  }
+  .cuerpoMedium {
+    font-weight: 400;
+    font-size: 16px;
+  }
+  .cuerpoBlanco {
+    font-weight: 500;
+    font-size: 16px;
+  }
+  .cuerpoBlancoBold {
+    font-weight: 700;
+    font-size: 18px;
+  }
+  .cuerpoFooter {
+    font-weight: 400;
+    font-size: 16px;
+  }
+}

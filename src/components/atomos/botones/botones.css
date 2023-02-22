@@ -63,3 +63,8 @@ button {
   filter: drop-shadow(0px 4px 4px rgba(20, 4, 77, 0.2));
   border-radius: 20px;
 }
+@media screen and (max-width: 768px) {
+  button {
+    font-size: 20px;
+  }
+}

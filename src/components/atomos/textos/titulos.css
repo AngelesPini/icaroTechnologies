@@ -27,3 +27,10 @@
 .transformamosTextos {
   display: flex;
 }
+@media screen and (max-width: 768px) {
+  .titulo {
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 37px;
+  }
+}

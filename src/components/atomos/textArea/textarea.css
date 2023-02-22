@@ -14,3 +14,12 @@ textarea {
   background: #dddae5;
   border: none;
 }
+@media screen and (max-width: 768px) {
+  textarea {
+    width: 283px;
+    height: 89px;
+
+    background: #ffffff;
+    border-radius: 9px;
+  }
+}

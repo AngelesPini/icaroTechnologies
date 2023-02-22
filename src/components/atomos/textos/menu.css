@@ -3,14 +3,18 @@
   font-size: 20px;
   line-height: 24px;
   letter-spacing: 0.0025em;
+  color: #37367b;
 }
 .menuMedium:hover {
-  font-weight: 800;
-  font-size: 20px;
-  line-height: 24px;
   letter-spacing: 0.0025em;
   border-bottom: solid 4px
     linear-gradient(90.67deg, #511ea5 -13.21%, #9b58ff 46.83%, #41f6ec 119.29%);
   opacity: 0.8;
   border-radius: 4px;
+}
+@media screen and (max-width: 768px) {
+  .menuMedium {
+    font-weight: 800;
+    font-size: 30px;
+  }
 }
