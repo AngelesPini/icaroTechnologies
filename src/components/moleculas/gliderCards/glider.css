@@ -1,7 +1,9 @@
 .glider-track .glider-slide {
   width: 310px !important;
 }
-
+.glider-track {
+  width: fit-content !important;
+}
 /* .glider .draggable .drag {
   width: 228px;
 }

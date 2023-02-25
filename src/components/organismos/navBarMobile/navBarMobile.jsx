@@ -5,20 +5,26 @@ import Navbar from 'react-bootstrap/Navbar';
 import './navMobile.css'
 import SelectIdiomas from '../../atomos/selectIdiomas/selectIdiomas';
 import Menu from '../../atomos/textos/menu';
-
+import { Link } from 'react-router-dom';
 import Logo from '../../../assetes/brand.png'
 const NavBarMobile = () => {
     return (
         <div className='navBarMobile '>
         <Navbar bg="light" expand="lg">
         <Container>
-          <Navbar.Brand href="#home"><img src={Logo} alt="logo de ícaro technologies" /></Navbar.Brand>
+        <Link to='/'><Navbar.Brand href="#home"><img src={Logo} alt="logo de ícaro technologies" /></Navbar.Brand>                </Link>
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
           <Navbar.Collapse id="basic-navbar-nav">
             <Nav className="me-auto">
-              <Nav.Link href="#home"><Menu value='Home' style='menuMedium'/></Nav.Link>
-              <Nav.Link href="#link"><Menu value='Servicios' style='menuMedium'/></Nav.Link>
-              <Nav.Link href="#link"><Menu value='Contacto' style='menuMedium'/></Nav.Link>
+            <Link to='/'>
+                    <Menu value='Home' style='menuMedium'/>
+                </Link>
+                <Link to='/servicio'>
+                    <Menu value='Servicios' style='menuMedium'/>
+                </Link>
+                <Link to='/contacto'>
+                    <Menu value='Contacto' style='menuMedium'/>
+                </Link>
               <SelectIdiomas/>
             </Nav>
           </Navbar.Collapse>

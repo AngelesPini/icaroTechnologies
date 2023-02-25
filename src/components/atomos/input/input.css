@@ -23,7 +23,7 @@ input {
   input {
     width: 283px;
     height: 47px;
-
+    font-size: 16px;
     background: #ffffff;
     border-radius: 9px;
   }

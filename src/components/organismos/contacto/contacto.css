@@ -9,3 +9,10 @@
 .contactoTexto .subtituloMedium {
   margin-top: 25px;
 }
+@media screen and (max-width: 768px) {
+  .contacto {
+    padding: 30px 28px;
+    flex-direction: column;
+    gap: 20px;
+  }
+}

@@ -1,6 +1,6 @@
 .form {
   background: #e8e3f3;
-  border: 4px solid #ffffff;
+
   border-radius: 20px;
   width: 553px;
   height: 751px;
@@ -20,4 +20,15 @@
 }
 .formButton button {
   padding: 8px 85px;
+}
+@media screen and (max-width: 768px) {
+  .form {
+    width: 334px;
+    height: 450px;
+    padding: 25px;
+  }
+  .formButton {
+    display: flex;
+    align-self: center;
+  }
 }
