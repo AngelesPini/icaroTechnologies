@@ -16,10 +16,10 @@ const Capacita = () => {
                     <Subtitulos value='Las empresas que capacitan con realidad virtual observan un impacto medible.' style='subtituloCapacita'/>
                     <ul>
                         <li><Cuerpo value='Disminuye los costos de incidentes' style='cuerpoMedium'/></li>
-                        <li><Cuerpo value='Disminuye los costos de incidentes' style='cuerpoMedium'/></li>
-                        <li><Cuerpo value='Disminuye los costos de incidentes' style='cuerpoMedium'/></li>
-                        <li><Cuerpo value='Disminuye los costos de incidentes' style='cuerpoMedium'/></li>
-                        <li><Cuerpo value='Disminuye los costos de incidentes' style='cuerpoMedium'/></li>
+                        <li><Cuerpo value='Reduce el tiempo de capacitación' style='cuerpoMedium'/></li>
+                        <li><Cuerpo value='Disminuye la rotación de tu personal' style='cuerpoMedium'/></li>
+                        <li><Cuerpo value='Mejora la seguridad en el lugar de trabajo' style='cuerpoMedium'/></li>
+                        <li><Cuerpo value='Reduce el tiempo de incorporación' style='cuerpoMedium'/></li>
                     </ul>
                     <Botones value='Contacta un agente' style='btnPrincipal'/>
                 </div>
