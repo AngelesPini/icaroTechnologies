@@ -8,7 +8,7 @@ const SoftwareEscalar = () => {
     return (
         <div className='softwareEscalar'>
             <div className="softwareVideo">
-                <video src=""></video>
+            <iframe width="560" height="315" src={t("Develop.video")}title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowFullScreen></iframe>
             </div>
             <div className="softwareTextos">
                 <Titulos value={t("SoftwareDescription.title1")}  style='titulo tituloOscuro'/>

@@ -5,10 +5,15 @@
 }
 .softwareVideo {
   width: 471px;
+  display: flex;
+  align-items: center;
   height: 416px;
 }
 .softwareTextos {
   width: 565px;
+}
+iframe {
+  width: 100%;
 }
 @media screen and (max-width: 768px) {
   .softwareEscalar {
