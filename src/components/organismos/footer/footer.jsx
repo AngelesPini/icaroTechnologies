@@ -10,6 +10,7 @@ import Youtube from '../../../assetes/iconos/youtube.png'
 import LogoFooter from '../../../assetes/iconos/logoFooter.png'
 
 import './footer.css'
+
 const Footer = () => {
     return (
         <div className="footerGenerals">

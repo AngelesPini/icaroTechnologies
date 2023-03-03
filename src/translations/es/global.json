@@ -1,0 +1,68 @@
+{
+    "Form":{
+        "inputName":"Nombre completo*",
+        "inputMail":"Correo electrónico*",
+        "inputPhone":"Teléfono de contacto*",
+        "inputComment":"¿En qué podemos ayudarte?*",
+        "button":"Enviar"
+    },
+    "Navbar":{
+        "home":"Home",
+        "services":"Servicios",
+        "contact":"Contacto"
+    },
+    "Header":{
+        "titulo1":"Elevamos el rendimiento y productividad de tu empresa con",
+        "subtitle1":"Realidad Virtual",
+        "titulo2":"Icaro Tech es el agente de capacitación laboral del futuro, facilitando los procesosde capacitación e incrementando la productividad de las empresas.",
+        "buttonTraining":"Cotiza tu capacitación",
+        "img":"imagen vectorial de hombre empujando cajas sobre un carro"
+    },
+    "WhyIcaro":{
+        "titulo1":"¿Por qué elegirnos?",
+        "GliderCards":{
+            "card1Title":"Disminuye los costos de incidentes",
+            "card1":"Después de una capacitación inmersiva de 15 minutos, el 89% de los empleados se sienten más preparados para manejar los riesgos de seguridad.",
+            "card2Title":"Reduce el tiempo de capacitación",
+            "card2":"Elimina interrupciones y reduce el tiempo necesario para capacitar de 8 horas a 15 minutos.",
+            "card3Title":"Disminuye la rotación de personal",
+            "card3":"Prepara mental y físicamente a los empleados, aumentando la tasa de retención de personal.",
+            "card4Title":"Mejora la seguridad en el lugar de trabajo",
+            "card4":"Permite aprender en un ambiente seguro que se siente como en la vida real, ideal para momentos críticos."
+        }
+    },
+    "SoftwareDescription":{
+        "title1":"Un software para escalar tus procesos de capacitación laboral",
+        "subtitle1":"Con Icaro tu proceso de capacitación se personaliza a las necesidades de tu empresa, utilizando métricas que ayudan a tu empresa a evaluar el desempeño , habilidades y áreas de mejora de tu personal."
+    },
+    "Transform":{
+        "title1":"Transformamos el ADN",
+        "title2":"de la capacitación laboral",
+        "Header":{
+            "headerText":"Al igual que muchas tecologías disruptivas en la empresa, la capacitación en realidad virtual está reescribiendo las reglas sobre cómo calcular el impacto de la fusión de la capacitación corporativa con el aprendizaje experiencial.",
+            "headerTitle1":"96%",
+            "headerSubtitle1":"De reducción en el tiempo de capacitación, pasando de 8 horas a 15 minutos.",
+            "headerTitle2":"97%",
+            "headerSubtitle2":"De los empleados se sienten preparados cuando se encuentran en situaciones peligrosas."
+        }
+    },
+
+        "Footer":{
+            "header":"Querétaro. El Marqués, 76269 Santiago de Querétaro."
+        },
+        "Contact":{
+            "title1":"Transforma",
+            "title2":"tu empresa con Icaro",
+            "subtitle1":"Comparte la necesidad de tu empresa y un especialista en realidad virtual de Icaro Tech se pondrá en contacto contigo."
+        },
+        "Develop":{
+            "title1":"Capacita a tu personal hoy con Icaro",
+            "subtitle1":"Las empresas que capacitan con realidad virtual observan un impacto medible.",
+            "item1":"Disminuye los costos de incidentes",
+            "item2":"Reduce el tiempo de capacitación",
+            "item3":"Disminuye la rotación de tu personal",
+            "item4":"Mejora la seguridad en el lugar de trabajo",
+            "item5":"Reduce el tiempo de incorporación",
+            "video":"https://www.youtube.com/embed/k_GMv31hctE?start=1"
+        }
+}

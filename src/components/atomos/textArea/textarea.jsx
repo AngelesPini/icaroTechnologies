@@ -1,9 +1,17 @@
 import React from 'react';
 import './textarea.css'
-const Textarea = ({name, id, style, value}) => {
+const Textarea = ({placeholder,name, id, style, value,onChange}) => {
     return (
         <>
-            <textarea name={name} id={id} placeholder={value} className={style}></textarea>
+            <textarea 
+                name={name} 
+                id={id} 
+                placeholder={placeholder} 
+                className={style} 
+                value={value}
+                onChange={onChange}
+            >
+            </textarea>
         </>
     );
 }

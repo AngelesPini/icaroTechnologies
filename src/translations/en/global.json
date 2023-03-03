@@ -1,0 +1,68 @@
+{
+    "Form":{
+        "inputName":"Name full*",
+        "inputMail":"Mail*",
+        "inputPhone":"Phone*",
+        "inputComment":"How may we help you?*",
+        "button":"Send"
+    },
+    "Navbar":{
+        "home":"Home",
+        "services":"Services",
+        "contact":"Contact"
+    },
+    "Header":{
+        "titulo1":"We leverage your bussiness’ performance and productivity with",
+        "subtitle1":"Virtual Reality",
+        "titulo2":"We are the skill development agent of the future, simplifying the training process in every enterprise.",
+        "buttonTraining":"Quote your training",
+        "img":"vector image of man pushing boxes on a cart"
+    },
+    "WhyIcaro":{
+        "titulo1":"Why Icaro?",
+        "GliderCards":{
+            "card1Title":"Reduce costs related to risk management",
+            "card1":"After an immersive 15-minute training, 89% of employees feel more confident to manage security risks.",
+            "card2Title":"Reduce time-consuming training",
+            "card2":"Get rid of interrumptionsand minimize the training time needed to achieve a significant learning.",
+            "card3Title":"Decrease staff turnover",
+            "card3":"Develop your team skills in order to increase employee retention.",
+            "card4Title":"Improve safety in the workplace",
+            "card4":"Create a safe realistic environment for your staff and make them feel comfortable in managing hazards."
+        }
+    },
+    "SoftwareDescription":{
+        "title1":"Scale-up your training process with our software",
+        "subtitle1":"Tailor your instruction process with Icaro. Receive custom-made exercises to measure your training’s efficiency with statistics. Get insights on skills, development and improvement areas."
+    },
+    "Transform":{
+        "title1":"We revolutionize the DNA",
+        "title2":"of staff training",
+        "Header":{
+            "headerText":"Our cutting-edge software allows to measure the impact of the new corporate training, using hands-on learning and virtual reality.",
+            "headerTitle1":"96%",
+            "headerSubtitle1":"reduction on training time. Scale down your staff preparation: 8-hour instructions can now be delivered on 15 minutes.",
+            "headerTitle2":"97%",
+            "headerSubtitle2":"of employees feel prepared when facing risky positions."
+        }
+    },
+
+        "Footer":{
+            "header":"Querétaro. El Marqués, 76269 Santiago de Querétaro."
+        },
+        "Contact":{
+            "title1":"Update",
+            "title2":"your company with Icaro",
+            "subtitle1":"Share your company needs and our virtual reality specialist will be in touch soon."
+        },
+        "Develop":{
+            "title1":"Develop your worker’s skills with Icaro",
+            "subtitle1":"Train and measure your business with virtual reality",
+            "item1":"Forget about safety related cost overrun.",
+            "item2":"Reduce time-consuming training.",
+            "item3":"Decrease staff turnover.",
+            "item4":"Improve security in the workplace.",
+            "item5":"Shorten hiring-time.",
+            "video":"https://www.youtube.com/embed/qzWZlK6H4SQ?start=1"
+        }
+}

@@ -1,9 +1,9 @@
 import React from 'react';
 import './botones.css'
-const Botones = ({value, style}) => {
+const Botones = ({value, style,onClick}) => {
     return (
         <>
-            <button className={style}>{value}</button>
+            <button className={style} type="submit" onClick={onClick}>{value}</button>
             
         </>
     );

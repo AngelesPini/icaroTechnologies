@@ -8,9 +8,12 @@ import './glider.css'
 
 import Glider from 'react-glider';
 import 'glider-js/glider.min.css';
+import { useTranslation } from 'react-i18next';
 
 
 const GliderCards = () => {
+        const [t,i18n] = useTranslation("global");
+
     return (
         <div className="contenedorGlider">
 
@@ -20,16 +23,16 @@ const GliderCards = () => {
         slidesToScroll={2.5}
         >
                 <div>
-                        <Cards imagen={Language} valor='icono' valueTitle='Disminuye los costos de incidentes' valueCuerpo ='Después de una capacitación inmersiva de 15 minutos, el 89% de los empleados se sienten más preparados para manejar los riesgos de seguridad.'styleTitle='cuerpoBold' styleCuerpo='cuerpoMedium'/>
+                        <Cards imagen={Language} valor='icono' valueTitle={t("WhyIcaro.GliderCards.card1Title")} valueCuerpo={t("WhyIcaro.GliderCards.card1")} styleTitle='cuerpoBold' styleCuerpo='cuerpoMedium'/>
                 </div>
                 <div>        
-                        <Cards imagen={Conditions} valor='icono' valueTitle='Reduce el tiempo de capacitación' valueCuerpo ='Elimina interrupciones y reduce el tiempo necesario para capacitar de 8 horas a 15 minutos.' styleTitle='cuerpoBold' styleCuerpo='cuerpoMedium'/>
+                        <Cards imagen={Conditions} valor='icono' valueTitle={t("WhyIcaro.GliderCards.card2Title")} valueCuerpo={t("WhyIcaro.GliderCards.card2")} styleTitle='cuerpoBold' styleCuerpo='cuerpoMedium'/>
                 </div>
                 <div>        
-                        <Cards imagen={Person} valor='icono' valueTitle='Disminuye la rotación de personal' valueCuerpo ='Prepara mental y físicamente a los empleados, aumentando la tasa de retención de personal..' styleTitle='cuerpoBold' styleCuerpo='cuerpoMedium'/>
+                        <Cards imagen={Person} valor='icono' valueTitle={t("WhyIcaro.GliderCards.card3Title")} valueCuerpo={t("WhyIcaro.GliderCards.card3")}  styleTitle='cuerpoBold' styleCuerpo='cuerpoMedium'/>
                 </div>
                 <div>        
-                        <Cards imagen={Security} valor='icono' valueTitle='Mejora la seguridad en el lugar de trabajo' valueCuerpo ='Permite aprender en un ambiente seguro que se siente como en la vida real, ideal para momentos críticos. ' styleTitle='cuerpoBold' styleCuerpo='cuerpoMedium'/>
+                        <Cards imagen={Security} valor='icono' valueTitle={t("WhyIcaro.GliderCards.card4Title")} valueCuerpo={t("WhyIcaro.GliderCards.card4")}  styleTitle='cuerpoBold' styleCuerpo='cuerpoMedium'/>
                 </div>
         </Glider>
         </div>

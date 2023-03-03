@@ -5,26 +5,28 @@ import Cuerpo from '../../atomos/textos/cuerpo';
 import Botones from '../../atomos/botones/botones';
 
 import './capacita.css'
+import { useTranslation } from 'react-i18next';
 const Capacita = () => {
+    const [t,i18n] = useTranslation("global");
     return (
         <div className='capacita'>
             <div className="capacitaTitulo">
-                <Titulos value='Capacita a tu personal hoy con Icaro' style='titulo tituloOscuro'/>
+                <Titulos value={t("Develop.title1")} style='titulo tituloOscuro'/>
             </div>
             <div className="capacitaMain">
                 <div className="mainLista">
-                    <Subtitulos value='Las empresas que capacitan con realidad virtual observan un impacto medible.' style='subtituloCapacita'/>
+                    <Subtitulos value={t("Develop.subtitle1")}  style='subtituloCapacita'/>
                     <ul>
-                        <li><Cuerpo value='Disminuye los costos de incidentes' style='cuerpoMedium'/></li>
-                        <li><Cuerpo value='Reduce el tiempo de capacitación' style='cuerpoMedium'/></li>
-                        <li><Cuerpo value='Disminuye la rotación de tu personal' style='cuerpoMedium'/></li>
-                        <li><Cuerpo value='Mejora la seguridad en el lugar de trabajo' style='cuerpoMedium'/></li>
-                        <li><Cuerpo value='Reduce el tiempo de incorporación' style='cuerpoMedium'/></li>
+                        <li><Cuerpo value={t("Develop.item1")}  style='cuerpoMedium'/></li>
+                        <li><Cuerpo value={t("Develop.item2")}  style='cuerpoMedium'/></li>
+                        <li><Cuerpo value={t("Develop.item3")}   style='cuerpoMedium'/></li>
+                        <li><Cuerpo value={t("Develop.item4")}  style='cuerpoMedium'/></li>
+                        <li><Cuerpo value={t("Develop.item5")}   style='cuerpoMedium'/></li>
                     </ul>
                     <Botones value='Contacta un agente' style='btnPrincipal'/>
                 </div>
                 <div className="mainVideo">
-                <video src=""></video>
+                    <iframe width="560" height="315" src={t("Develop.video")}title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
                 </div>
             </div>
             
