@@ -23,7 +23,7 @@ const Capacita = () => {
                         <li><Cuerpo value={t("Develop.item4")}  style='cuerpoMedium'/></li>
                         <li><Cuerpo value={t("Develop.item5")}   style='cuerpoMedium'/></li>
                     </ul>
-                    <Botones value='Contacta un agente' style='btnPrincipal'/>
+                    <Botones value={t("Develop.button")} style='btnPrincipal'/>
                 </div>
                 <div className="mainVideo">
                     <iframe width="560" height="315" src={t("Develop.video")}title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>

@@ -7,7 +7,9 @@ import SelectIdiomas from '../../atomos/selectIdiomas/selectIdiomas';
 import Menu from '../../atomos/textos/menu';
 import { Link } from 'react-router-dom';
 import Logo from '../../../assetes/brand.png'
+import { useTranslation } from 'react-i18next';
 const NavBarMobile = () => {
+  const [t,i18n] = useTranslation("global");
     return (
         <div className='navBarMobile '>
         <Navbar bg="light" expand="lg">
@@ -17,13 +19,13 @@ const NavBarMobile = () => {
           <Navbar.Collapse id="basic-navbar-nav">
             <Nav className="me-auto">
             <Link to='/'>
-                    <Menu value='Home' style='menuMedium'/>
+                    <Menu value={t("Navbar.home")} style='menuMedium'/>
                 </Link>
                 <Link to='/servicio'>
-                    <Menu value='Servicios' style='menuMedium'/>
+                    <Menu value={t("Navbar.services")}style='menuMedium'/>
                 </Link>
                 <Link to='/contacto'>
-                    <Menu value='Contacto' style='menuMedium'/>
+                    <Menu value={t("Navbar.contact")} style='menuMedium'/>
                 </Link>
               <SelectIdiomas/>
             </Nav>

@@ -19,17 +19,28 @@ const initialForm = {
     phone:'',
     comment:''
 }
+
+
+const formValidations = {
+    email:[(value)=>value === "",'El email es obligatorio'],
+    name:[(value)=>value === "",'El nombre es obligatorio'],
+    phone:[(value)=>value === "",'El télefono es obligatorio'],
+    comments:[(value)=>value === "",'Debe ingresar un comentario']
+  }
+
 const Form = () => {
 
     const [t,i18n] = useTranslation("global");
-    const {name,email,phone,comment,onInputChange,formState,onResetForm} = useForm(initialForm);
+    const {name,email,phone,comment,onInputChange,formState,onResetForm,
+           nameValid,emailValid,phoneValid,commentsValid,isFormValid } = useForm(initialForm,formValidations);
     const form = useRef();
 
     const onSubmitForm = async(e) => {
 
         e.preventDefault();
-        console.log(form.current);
         //todo validacion de formularios
+
+        if(isFormValid) return;
         const resp = await emailjs.sendForm('service_0e7sch8','template_gqnc5le',form.current,'S_DTKuRElj-5Ny5il');
         console.log(resp);
         const collectionRef = collection(db,'comments');
@@ -40,10 +51,10 @@ const Form = () => {
         <form ref={form} className='form' onSubmit={onSubmitForm}>
             
             <div className="formCampos">
-            <Input placeholder={t("Form.inputName")} name='name' value={name} onChange={onInputChange}/>
-            <Input placeholder={t("Form.inputMail")} name='email' value={email} onChange={onInputChange}/>
-            <Input placeholder={t("Form.inputPhone")} name='phone' value={phone} onChange={onInputChange}/>
-            <TextArea placeholder={t("Form.inputComment")} name='comment' value={comment} onChange={onInputChange} />
+            <Input placeholder={t("Form.inputName")} name='name' value={name} onChange={onInputChange} validation={nameValid}/>
+            <Input placeholder={t("Form.inputMail")} name='email' value={email} onChange={onInputChange} validation={emailValid}/>
+            <Input placeholder={t("Form.inputPhone")} name='phone' value={phone} onChange={onInputChange} validation={phoneValid}/>
+            <TextArea placeholder={t("Form.inputComment")} name='comment' value={comment} onChange={onInputChange}validation={commentsValid} />
             </div>
             <div className="formButton">
                 <Botones value={t("Form.button")} style='btnSecundario' onClick={onSubmitForm}/>
