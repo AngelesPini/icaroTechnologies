@@ -9,6 +9,7 @@ import Location from '../../../assetes/iconos/location.png'
 import Youtube from '../../../assetes/iconos/youtube.png'
 import LogoFooter from '../../../assetes/iconos/logoFooter.png'
 
+
 import './footer.css'
 
 const Footer = () => {
@@ -24,7 +25,7 @@ const Footer = () => {
                 <ul>
                     <li><Iconos imagen={Email} valor= 'icono de email'/><Cuerpo value='hello@icarotechnologies.tech' style='cuerpoFooter'/></li>
                     <li><Iconos imagen={Call} valor='icono de teléfono'/> <Cuerpo value='+52 55 6566 7506' style='cuerpoFooter'/></li>
-                    <li><Iconos imagen={Youtube}valor='icono de youtube'/><Cuerpo value=' https://www.youtube.com/@icarotech-mx' style='cuerpoFooter'/> </li>
+                    <li><Iconos imagen={Youtube}valor='icono de youtube'/><Cuerpo value=' /@icarotech-mx' style='cuerpoFooter'/> </li>
                 </ul>
 
             </div>
