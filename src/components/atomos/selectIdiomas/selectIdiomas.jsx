@@ -25,7 +25,7 @@ const SelectIdiomas = () => {
         <div className='selectIdiomas'>
             <Form.Select aria-label="Default select example" onChange={onChangeIdiomas}>
                 <option value="0">ES - MX </option>
-                <option value="1">EN - MX</option>
+                <option value="1">EN - US</option>
             </Form.Select>
 
         </div>
