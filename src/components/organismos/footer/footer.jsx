@@ -22,9 +22,9 @@ const Footer = () => {
             </div>
             <div className="footerContacto">
                 <ul>
-                    <li><Iconos imagen={Email} valor= 'icono de email'/><Cuerpo value='Loremipsum@dolor sit amet' style='cuerpoFooter'/></li>
-                    <li><Iconos imagen={Call} valor='icono de teléfono'/> <Cuerpo value='+52 9 000 0000 0000' style='cuerpoFooter'/></li>
-                    <li><Iconos imagen={Youtube}valor='icono de youtube'/><Cuerpo value=' @icarotechnologies' style='cuerpoFooter'/> </li>
+                    <li><Iconos imagen={Email} valor= 'icono de email'/><Cuerpo value='hello@icarotechnologies.tech' style='cuerpoFooter'/></li>
+                    <li><Iconos imagen={Call} valor='icono de teléfono'/> <Cuerpo value='+52 55 6566 7506' style='cuerpoFooter'/></li>
+                    <li><Iconos imagen={Youtube}valor='icono de youtube'/><Cuerpo value=' https://www.youtube.com/@icarotech-mx' style='cuerpoFooter'/> </li>
                 </ul>
 
             </div>
