@@ -32,3 +32,13 @@ iframe {
     flex-direction: column;
   }
 }
+
+
+@media (min-width:769px) and (max-width: 1200px) {
+  .softwareEscalar {
+    padding: 40px 30px;
+    flex-flow: column-reverse;
+    width: 90%;
+    gap: 50px;
+  }
+}
