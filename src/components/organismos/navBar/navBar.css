@@ -16,7 +16,4 @@ a{
 .navBar .menuMedium {
   width: 177px;
 }
-.menuActive{
-  border-bottom: solid 4px red;
-  border-radius: 4px;
-}
+
