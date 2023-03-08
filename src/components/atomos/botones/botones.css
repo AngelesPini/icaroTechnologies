@@ -8,6 +8,9 @@ button {
   padding: 8px 16px;
 }
 
+a:link, a:visited, a:active {
+  text-decoration:none;
+}
 .btnPrincipal {
   background: #14044d;
   border: 2px solid #14044d;

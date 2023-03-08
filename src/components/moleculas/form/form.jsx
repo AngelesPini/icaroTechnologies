@@ -2,6 +2,7 @@ import React, { useRef } from 'react';
 import { useForm } from '../../../hooks/useForm';
 import { useTranslation } from 'react-i18next';
 import emailjs from '@emailjs/browser';
+import Swal from 'sweetalert2'
 
 import { addDoc,collection } from 'firebase/firestore';
 import { db } from '../../../services/firebase';
@@ -41,11 +42,27 @@ const Form = () => {
         //todo validacion de formularios
 
         if(isFormValid) return;
-        const resp = await emailjs.sendForm('service_0e7sch8','template_gqnc5le',form.current,'S_DTKuRElj-5Ny5il');
-        console.log(resp);
+        const resp = await emailjs.sendForm('service_1jvzm5h','template_j4jyn3v',form.current,'fRqVX3k0Mx8-lZBzb');
         const collectionRef = collection(db,'comments');
         addDoc(collectionRef,formState);
         onResetForm();
+
+        const Toast = Swal.mixin({
+            toast: true,
+            position: 'top-end',
+            showConfirmButton: false,
+            timer: 3000,
+            timerProgressBar: true,
+            didOpen: (toast) => {
+              toast.addEventListener('mouseenter', Swal.stopTimer)
+              toast.addEventListener('mouseleave', Swal.resumeTimer)
+            }
+          })
+          
+          Toast.fire({
+            icon: 'success',
+            title:t("Form.msjSuccess")
+          })
     }
     return (
         <form ref={form} className='form' onSubmit={onSubmitForm}>

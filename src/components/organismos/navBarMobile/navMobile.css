@@ -9,3 +9,8 @@
   background-size: cover;
   height: 100%;
 }
+
+.menuActive{
+  border-bottom: solid 4px red;
+  border-radius: 4px;
+}

@@ -3,7 +3,7 @@ import './navBar.css'
 import SelectIdiomas from '../../atomos/selectIdiomas/selectIdiomas';
 import Menu from '../../atomos/textos/menu';
 import Brand from '../../../assetes/brand.png'
-import { Link } from 'react-router-dom';
+import { NavLink } from 'react-router-dom';
 import { useTranslation } from 'react-i18next';
 
 const NavBar = () => {
@@ -14,15 +14,15 @@ const NavBar = () => {
             <img src={Brand} alt="logo de icaro technologies" />
             </div>
             <div className="brandMenu">
-                <Link to='/'>
+                <NavLink to='/' className={({isActive}) => isActive ? 'menuActive' : ""}>
                     <Menu value={t("Navbar.home")} style='menuMedium'/>
-                </Link>
-                <Link to='/servicio'>
+                </NavLink>
+                <NavLink to='/servicio' className={({isActive}) => isActive ? 'menuActive' : ""}>
                     <Menu value={t("Navbar.services")} style='menuMedium'/>
-                </Link>
-                <Link to='/contacto'>
+                </NavLink>
+                <NavLink to='/contacto' className={({isActive}) => isActive ? 'menuActive' : ""}>
                     <Menu value={t("Navbar.contact")} style='menuMedium'/>
-                </Link>
+                </NavLink>
                 <SelectIdiomas/>
             </div>
 

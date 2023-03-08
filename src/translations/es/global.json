@@ -4,7 +4,8 @@
         "inputMail":"Correo electrónico*",
         "inputPhone":"Teléfono de contacto*",
         "inputComment":"¿En qué podemos ayudarte?*",
-        "button":"Enviar"
+        "button":"Enviar",
+        "msjSuccess":"Los datos fueron enviados correctamente"
     },
     "Navbar":{
         "home":"Home",

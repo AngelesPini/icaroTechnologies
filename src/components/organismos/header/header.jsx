@@ -14,7 +14,7 @@ const Header = () => {
             <Titulos value={t("Header.titulo1")} style='titulo tituloOscuro'/>
             <Titulos value={t("Header.subtitle1")} style='titulo tituloClaro'/>
             <Subtitulos value={t("Header.titulo2")} style='subtituloMedium'/>
-            <Botones value={t("Header.buttonTraining")} style='btnPrincipal'/>
+            <Botones value={t("Header.buttonTraining")} style='btnPrincipal' href='/servicio'/>
             </div>
             <div className="headerImg">
                 <img src={ImagenHeader} alt={t("Header.img")} />

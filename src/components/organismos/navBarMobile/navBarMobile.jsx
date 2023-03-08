@@ -5,7 +5,7 @@ import Navbar from 'react-bootstrap/Navbar';
 import './navMobile.css'
 import SelectIdiomas from '../../atomos/selectIdiomas/selectIdiomas';
 import Menu from '../../atomos/textos/menu';
-import { Link } from 'react-router-dom';
+import { NavLink } from 'react-router-dom';
 import Logo from '../../../assetes/brand.png'
 import { useTranslation } from 'react-i18next';
 const NavBarMobile = () => {
@@ -14,19 +14,21 @@ const NavBarMobile = () => {
         <div className='navBarMobile '>
         <Navbar bg="light" expand="lg">
         <Container>
-        <Link to='/'><Navbar.Brand href="#home"><img src={Logo} alt="logo de ícaro technologies" /></Navbar.Brand>                </Link>
+        <NavLink to='/'><Navbar.Brand href="#home"><img src={Logo} alt="logo de ícaro technologies" />
+          </Navbar.Brand>               
+        </NavLink>
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
           <Navbar.Collapse id="basic-navbar-nav">
             <Nav className="me-auto">
-            <Link to='/'>
+                <NavLink to='/' className={({isActive}) => isActive ? 'menuActive' : ""}>
                     <Menu value={t("Navbar.home")} style='menuMedium'/>
-                </Link>
-                <Link to='/servicio'>
+                </NavLink>
+                <NavLink to='/servicio' className={({isActive}) => isActive ? 'menuActive' : ""}>
                     <Menu value={t("Navbar.services")}style='menuMedium'/>
-                </Link>
-                <Link to='/contacto'>
+                </NavLink>
+                <NavLink to='/contacto' className={({isActive}) => isActive ? 'menuActive' : ""}>
                     <Menu value={t("Navbar.contact")} style='menuMedium'/>
-                </Link>
+                </NavLink>
               <SelectIdiomas/>
             </Nav>
           </Navbar.Collapse>

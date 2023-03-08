@@ -4,7 +4,8 @@
         "inputMail":"Mail*",
         "inputPhone":"Phone*",
         "inputComment":"How may we help you?*",
-        "button":"Send"
+        "button":"Send",
+        "msjSuccess":"The data was sent correctly"
     },
     "Navbar":{
         "home":"Home",
