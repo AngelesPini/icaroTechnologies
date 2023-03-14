@@ -14,7 +14,7 @@ const NavBarMobile = () => {
         <div className='navBarMobile '>
         <Navbar bg="light" expand="lg">
         <Container>
-        <NavLink to='/'><Navbar.Brand href="#home"><img src={Logo} alt="logo de ícaro technologies" />
+        <NavLink to='/'><Navbar.Brand href="#home"><img src={Logo} alt="logo de ícaro technologies" width='218' height='50' />
           </Navbar.Brand>               
         </NavLink>
           <Navbar.Toggle aria-controls="basic-navbar-nav" />

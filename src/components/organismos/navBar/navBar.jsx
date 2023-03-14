@@ -11,7 +11,9 @@ const NavBar = () => {
     return (
         <div className='navBar'>
             <div className="brandNav">
-            <img src={Brand} alt="logo de icaro technologies" />
+            <NavLink to='/'>
+                <img src={Brand} alt="logo de icaro technologies"  width='218px' height='50px'/>
+            </NavLink>
             </div>
             <div className="brandMenu">
                 <NavLink to='/' className={({isActive}) => isActive ? 'menuActive' : ""}>
