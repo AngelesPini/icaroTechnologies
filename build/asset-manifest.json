@@ -1,21 +1,21 @@
 {
   "files": {
-    "main.css": "/static/css/main.59d4ae3c.css",
-    "main.js": "/static/js/main.2f16f0a7.js",
+    "main.css": "/static/css/main.a0bc81e8.css",
+    "main.js": "/static/js/main.08489b7e.js",
     "static/media/background-home.png": "/static/media/background-home.e4092a7567bfaad63d87.png",
     "static/media/bg-navbar.png": "/static/media/bg-navbar.c2d4c5f49a01cc8c6f34.png",
     "static/media/backgroundADN.png": "/static/media/backgroundADN.0b4de30507d33a3d74d4.png",
+    "static/media/logoFooter.png": "/static/media/logoFooter.73ef476b2b6141f1a287.png",
     "static/media/background-mobile.png": "/static/media/background-mobile.991dfca5a3818f5cfb1b.png",
     "static/media/brand.png": "/static/media/brand.006c9119f4af73fb87eb.png",
     "static/media/banner-home.png": "/static/media/banner-home.3b7b0a8b96bb239cb80e.png",
     "static/media/card-bg.png": "/static/media/card-bg.3d12d74a27e20c0ff0b7.png",
-    "static/media/logoFooter.png": "/static/media/logoFooter.f302cc5f54bd7988580c.png",
     "index.html": "/index.html",
-    "main.59d4ae3c.css.map": "/static/css/main.59d4ae3c.css.map",
-    "main.2f16f0a7.js.map": "/static/js/main.2f16f0a7.js.map"
+    "main.a0bc81e8.css.map": "/static/css/main.a0bc81e8.css.map",
+    "main.08489b7e.js.map": "/static/js/main.08489b7e.js.map"
   },
   "entrypoints": [
-    "static/css/main.59d4ae3c.css",
-    "static/js/main.2f16f0a7.js"
+    "static/css/main.a0bc81e8.css",
+    "static/js/main.08489b7e.js"
   ]
 }
