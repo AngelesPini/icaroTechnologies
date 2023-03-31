@@ -31,6 +31,10 @@
   gap: 27px;
   width: 530px;
 }
+.mainVideo iframe {
+  width: 40vw;
+  height: 40vh;
+}
 @media screen and (max-width: 768px) {
   .capacita {
     gap: 40px;
